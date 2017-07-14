@@ -1,0 +1,138 @@
+p {
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: #303F9F;
+
+}
+
+.content {
+    padding-top: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post__item {
+    position: relative;
+    margin-bottom: 30px;
+    padding: 10px 10px 30px;
+    width: 540px;
+    background-color: #F4F4F4;
+    box-shadow: 1px 0 25px 0 rgba(0, 0, 0, 0.75)
+}
+
+.post__title p {
+    padding: 12px 6px;
+    font-size: 20px;
+
+}
+
+.post__tags {
+    margin: 18px 5px;
+}
+
+.post__tags span {
+    padding: 10px;
+    border-radius: 10%;
+    background: #748bfd;
+    margin-right: 20px;
+    color: white;
+}
+
+.post__picture {
+
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-right: 25px;
+}
+
+.post__picture-link {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border: 1px solid black;
+}
+
+.post__description {
+    align-self: center;
+}
+
+.post__date {
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+}
+
+.post__date span {
+    padding-right: 10px;
+    font-style: italic;
+}
+
+.post__delete {
+    background-image: url(../css/delete.png);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-size: cover;
+    right: 0;
+    top: 0;
+    margin: 12px 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.search {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.search__input {
+    padding: 10px;
+}
+
+.search__label {
+    font-size: 20px;
+}
+
+.tag__list {
+    display: flex;
+    list-style: none;
+
+}
+
+.tag__item {
+    text-align: center;
+    width: 60px;
+    padding: 10px;
+    cursor: pointer;
+    background: #3F51B5;
+    border-radius: 10px;
+    margin: 0 4px;
+    color: #ffffff;
+    box-shadow: 2px 1px 12px 0px rgba(50, 50, 50, 0.75);
+}
+
+.tag__item:hover {
+    background: #448AFF;
+}
+
+.active {
+    background: #448AFF;
+}
